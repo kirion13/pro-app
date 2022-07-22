@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+  color: white;
+  text-decoration: none;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img {
+  background-image: url(https://s3-alpha-sig.figma.com/img/70f0/1291/0a4be9a6eaf565103fc6e2c325f3838a?Expires=1659312000&Signature=EDD20E-VfpQMRAPA6ONOntPYbxP65t~A6~Gut9qg1zZFnCJjMOGbHpUJUwWlJ1pPAVDn9Kv1yPiZMjOgoqHbwFreBzuFTwogbowLeN9euh8o9UabGqNszzRSIcpSt2MFi43muAhMCphrbUsQ8IU1SfLXXaMMb~mkYfnsuKWJupySAOnC8q3fx9pt4P77oIzR5o606KK3yWO8ZMpuc4FdD8ti-4~h4I3J9QNoWfWz3fdIlD4jyO4U7s93yN9A2Y8pz1z-EyCGwboPrz9Gh-laC0YeE4Oqru5KqssPtc-7Pl-rA3tcBvuRSvpoVZrbWj9RnaNkAUq~TAfu1UX15i-Ipg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+}
+.content {
+  width: 300px;
+  height: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+body {
+  background-color: #23252c;
+}
+.content {
+  background-color: #1a1b21;
+  height: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.title {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.title > h3 {
+  margin-top: 20px;
+  font-size: 25px;
+  letter-spacing: 0.8px;
+}
+.title > h5 {
+  color: #f3bf99;
+}
+.title > * {
+  width: 100%;
+  display: block;
+  margin: 5px auto;
+}
+.title :first-child {
+  margin: 0;
+}
+.title .img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.content button {
+  width: 40%;
+  margin: 5px;
+  background-color: #5093e2;
+  color: black;
+  border-radius: 5px;
+  padding: 8px 10px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  font-weight: 500;
+}
+.content .email {
+  background-color: #fff;
+}
+.content .about {
+  margin: 10px 20px;
+}
+.content .about h3 {
+  color: #f5f5f5;
+}
+.content .about p {
+  font-size: 15px;
+  font-weight: 0;
+  color: #dcdcdc;
+  margin-top: -10px;
+  margin-bottom: 20px;
+}
+.Icons {
+  width: 300px;
+  height: 60px;
+  background-color: #161619;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  padding: 0px;
+}
+ul > * {
+  list-style: none;
+}
+button > img {
+  margin-right: 8px;
+}
